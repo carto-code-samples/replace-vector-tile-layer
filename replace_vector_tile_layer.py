@@ -11,6 +11,7 @@ from arcgis.gis import GIS
 now = datetime.datetime.now()
 date_time = "%d_%d_%d_%d_%d" % (now.year, now.month, now.day, now.hour, now.minute)
 
+# Enter the URL and login credentials to the ArcGIS Online or Enterprise account containing the layer to be updated. 
 gis = GIS("<your url>", "<your username", "<your password>")
 
 # The id of the service to be replaced, a string like '223525bd6dd344e3b405cba33f30947d'
